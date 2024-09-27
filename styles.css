@@ -1,34 +1,35 @@
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Verdana', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    background-color: #f3f3e7; /* Color de fondo suave */
+    color: #3c3c3b; /* Texto en gris oscuro */
 }
 
 /* Estilos del encabezado */
 header {
-    background-color: #8B4513; /* Color marrón tipo madera */
-    color: white;
+    background-color: #6A4A3C; /* Color marrón oscuro */
+    color: #F4E1D2; /* Color crema para el texto */
     text-align: center;
-    padding: 20px 0;
+    padding: 30px 0;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 3em;
 }
 
 header p {
-    margin: 5px 0 0;
-    font-size: 1.2em;
+    margin: 10px 0 0;
+    font-size: 1.3em;
+    font-weight: 300;
 }
 
 /* Estilos del menú de navegación */
 nav {
-    background-color: #333;
-    padding: 10px;
+    background-color: #C89B3C; /* Color dorado para resaltar */
+    padding: 15px;
     text-align: center;
 }
 
@@ -40,28 +41,33 @@ nav ul {
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
+    margin-right: 25px;
 }
 
 nav ul li a {
-    color: white;
+    color: #fff;
+    font-size: 1.2em;
     text-decoration: none;
-    font-size: 1.1em;
+    padding: 8px 15px;
+    background-color: #8C6239; /* Marrón más claro para enlaces */
+    border-radius: 5px;
 }
 
 nav ul li a:hover {
-    color: #FFD700; /* Color dorado */
+    background-color: #F4E1D2; /* Crema cuando se pasa el ratón */
+    color: #6A4A3C; /* Texto marrón oscuro en hover */
 }
 
 /* Estilos del contenido principal */
 main {
-    padding: 20px;
+    padding: 30px;
 }
 
 main h2 {
-    border-bottom: 2px solid #8B4513;
+    color: #8C6239;
+    border-bottom: 3px solid #C89B3C;
     padding-bottom: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 section {
@@ -70,9 +76,45 @@ section {
 
 /* Estilos de los productos */
 article {
-    background-color: white;
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    margin-top: 0;
+    color: #6A4A3C;
+    font-weight: 600;
+}
+
+article p {
+    color: #3C3C3B;
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #6A4A3C; /* Marrón oscuro */
+    color: #F4E1D2; /* Texto crema */
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9em;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #C89B3C; /* Enlaces dorados */
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
 
